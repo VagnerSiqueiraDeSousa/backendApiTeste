@@ -16,9 +16,6 @@ public class Usuario {
     @Column(name = "nome_completo", length = 200, nullable = true)
     private String nome;
 
-    @Column(name = "username", length = 200, nullable = true)
-    private String usernome;
-
     @Column(name = "email", length = 50, nullable = true)
     private String email;
 
@@ -42,14 +39,6 @@ public class Usuario {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public String getUsernome() {
-        return usernome;
-    }
-
-    public void setUsernome(String usernome) {
-        this.usernome = usernome;
     }
 
     public String getEmail() {
