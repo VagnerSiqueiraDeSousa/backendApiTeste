@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="criandoapi" options="-parameters --add-exports java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED,ALL-UNNAMED" />
+      <module name="criandoapi" options="-parameters --add-exports java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports java.base/sun.security.ssl=ALL-UNNAMED" />
     </option>
   </component>
 </project>
